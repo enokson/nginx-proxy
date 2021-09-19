@@ -22,3 +22,7 @@ systemctl restart tor
 cat /var/lib/tor/nextcloud/hostname
 ```
 6. edit /etc/nginx/nginx.conf (look at the example for help)
+7. restart nginx
+```
+systemctl restart nginx
+```
